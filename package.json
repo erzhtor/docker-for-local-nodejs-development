@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Example repository for developing nodejs inside docker container",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "docker:dev": "docker-compose up"
+  },
+  "keywords": [],
+  "author": "Erzhan Torokulov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
